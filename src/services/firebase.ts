@@ -12,17 +12,6 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_APP_ID,
   measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
-// const firebaseConfig = {
-//   apiKey: 'AIzaSyCcegxGg1hEX_vwCI2Fmy54DMhulDZPOyA',
-//   authDomain: 'asktome-c6023.firebaseapp.com',
-//   databaseURL: 'https://asktome-c6023-default-rtdb.firebaseio.com',
-//   projectId: 'asktome-c6023',
-//   storageBucket: 'asktome-c6023.appspot.com',
-//   messagingSenderId: '554309561248',
-//   appId: '1:554309561248:web:5364d3986da73e658ed2c5',
-//   measurementId: 'G-C2XSJ9TBPE',
-// };
-
 firebase.initializeApp(firebaseConfig);
 
 const auth = firebase.auth();
