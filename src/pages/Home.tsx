@@ -33,6 +33,10 @@ export function Home() {
       return;
     }
 
+    if (roomRef.val().endedAt) {
+      alert('A sala expirou.');
+      return;
+    }
     history.push(`rooms/${roomCode}`);
   }
 
